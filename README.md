@@ -3,6 +3,8 @@
 
   Deserialize JSON from a stream
 
+  [![build status](https://secure.travis-ci.org/juliangruber/stream-to-json.png)](http://travis-ci.org/juliangruber/stream-to-json)
+
 ## Example
 
 ```js
