@@ -5,6 +5,8 @@
 
   [![build status](https://secure.travis-ci.org/juliangruber/stream-to-json.png)](http://travis-ci.org/juliangruber/stream-to-json)
 
+  [![testling badge](https://ci.testling.com/juliangruber/stream-to-json.png)](https://ci.testling.com/juliangruber/stream-to-json)
+
 ## Example
 
 ```js
