@@ -14,6 +14,11 @@ function toJSON(stream, fn) {
   fn = once(fn);
   stream.on('error', fn);
   stream.pipe(concat(function(raw) {
+    if (Array.isArray(raw)) {
+      raw = raw.map(function(r) {
+        return r.toString();
+      }).join('');
+    }
     if (typeof raw != 'string') raw = raw.toString();
     try {
       var json = JSON.parse(raw);
