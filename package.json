@@ -1,0 +1,33 @@
+{
+  "name": "stream-to-json",
+  "description": "Deserialize JSON from a stream",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/stream-to-json.git"
+  },
+  "homepage": "https://github.com/juliangruber/stream-to-json",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "concat-stream": "~1.2.0",
+    "once": "~1.3.0"
+  },
+  "devDependencies": {
+    "tape": "~2.3.0",
+    "through": "~2.3.4"
+  },
+  "keywords": [
+    "stream",
+    "json",
+    "deserialize"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
